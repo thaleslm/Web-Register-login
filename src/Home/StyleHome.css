@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    display: grid;
+    align-items: center;
+    margin-top: 150px;
+    
+ }
+
+.Bt{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 60px;
+    box-shadow: 5px 5px 5px 5px solid rgba(71, 54, 54, 0.637);
+    
+   
+}
+.Bt:hover{
+    background-color:  rgba(71, 54, 54, 0.637);
+    color: black;
+    border: 1px solid white;
+}

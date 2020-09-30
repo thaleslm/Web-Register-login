@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./RegisterStyle.css">
+</head>
+<body>
+    
+    <form  id="formregist" action="http://localhost:3003/register" method="POST">
+            <h1>Register</h1><br>
+        
+        <div class="inputRegister">
+          <label >nome:</label>
+            <input type="text" name="name">
+        </div>
+        <div class="inputRegister">
+           <label>email:</label>
+            <input type="email" name="email">
+        </div>
+        <div class="inputRegister">
+            <label> username:</label>
+           <input type="text" name="username">
+        </div>
+        <div class="inputRegister">
+            <label>password:</label>
+             <input id="passwor" type="password" name="password">
+        </div>
+        <div class="inputRegister">
+            <label>repeat the password:</label>
+             <input  id="passwor1" type="password" name="password1">
+        </div>
+        
+        <button type="button" class="BT" onclick="valid()" >Register</button>  
+    </form>
+
+</body>
+<script src="./RequisRegistros.js"></script>
+</html>
